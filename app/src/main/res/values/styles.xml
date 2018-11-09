@@ -9,7 +9,7 @@
     </style>
 
     <style name="LandingTheme" parent="Theme.AppCompat.NoActionBar">
-        <item name="android:colorBackground">@color/md_grey_800</item>
+        <item name="android:colorBackground">@color/colorLandingBackground</item>
         <item name="android:textColor">@color/md_black_1000</item>
         <item name="android:textColorHint">@color/colorHintTextSettings</item>
         <item name="android:editTextColor">@color/colorBlueButton</item>
