@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                                             xmlns:tools="http://schemas.android.com/tools"
+                                             android:layout_width="match_parent"
+                                             android:layout_height="170dp"
+                                             xmlns:app="http://schemas.android.com/apk/res-auto"
+                                             android:background="@color/colorPhotosetsIcon"
+                                             android:orientation="vertical"
+                                             android:id="@+id/header"
+                                             android:paddingTop="16dp">
+    <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/tvUsernameHeaderNav"
+            app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent"
+            android:layout_marginStart="8dp" android:textSize="36sp" android:textStyle="bold"
+            android:textAlignment="center" android:textColor="@color/colorLogout" android:text="  "
+            app:layout_constraintStart_toEndOf="@+id/imageView3"/>
+    <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="0dp" tools:srcCompat="@tools:sample/avatars[0]"
+            android:id="@+id/imageView3"
+            app:layout_constraintStart_toStartOf="parent"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="12dp"
+            app:layout_constraintTop_toTopOf="parent"
+            android:layout_marginBottom="12dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:srcCompat="@mipmap/ic_pepe_big"/>
+</android.support.constraint.ConstraintLayout>

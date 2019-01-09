@@ -49,6 +49,6 @@ class LogInScreen : BaseActivityMVVM<BaseViewModel>() {
             .beginTransaction()
             .replace(R.id.flFragment,fragment)
             //.addToBackStack(null) let us onbackpressed comes back through fragemnts
-            .commit()
+            .commitAllowingStateLoss()
     }
 }

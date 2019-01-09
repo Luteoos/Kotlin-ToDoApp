@@ -4,7 +4,7 @@
     <application
             android:name=".ToDoStartup"
             android:allowBackup="true"
-            android:icon="@mipmap/ic_launcher"
+            android:icon="@drawable/ic_pepe"
             android:label="@string/app_name"
             android:theme="@style/AppTheme">
 
@@ -21,6 +21,14 @@
 
         <activity
                 android:name=".views.activities.LogInScreen"
+                android:theme="@style/LandingTheme"
+                android:windowSoftInputMode="stateHidden|adjustPan" />
+        <activity
+                android:name=".views.activities.NavigatorMenu"
+                android:theme="@style/LandingTheme"
+                android:windowSoftInputMode="stateHidden|adjustPan" />
+        <activity
+                android:name=".views.activities.ActivityDoubleTheTrouble"
                 android:theme="@style/LandingTheme"
                 android:windowSoftInputMode="stateHidden|adjustPan" />
 
